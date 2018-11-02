@@ -4,16 +4,24 @@ import com.blossom.sagittarius.domain.BaseDO;
 
 public class Role extends BaseDO {
 	
-	private Integer roldId;
+	private Integer roleId;
 	
 	private String name;
-
-	public Integer getRoldId() {
-		return roldId;
+	
+	public Role(String name) {
+		this.name = name;
+	}
+	
+	public Role() {
+		
 	}
 
-	public void setRoldId(Integer roldId) {
-		this.roldId = roldId;
+	public Integer getRoleId() {
+		return roleId;
+	}
+
+	public void setRoleId(Integer roleId) {
+		this.roleId = roleId;
 	}
 
 	public String getName() {

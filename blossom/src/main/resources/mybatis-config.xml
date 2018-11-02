@@ -6,8 +6,10 @@
 <configuration>
     <typeAliases>
         <package name="com.blossom.sagittarius.domain"/>
+        <package name="com.blossom.sagittarius.domain.security"/>
     </typeAliases>
     <mappers>
         <mapper resource="com/blossom/sagittarius/mapper/UserMapper.xml"/>
+        <mapper resource="com/blossom/sagittarius/mapper/RoleMapper.xml"/>
     </mappers>
 </configuration>

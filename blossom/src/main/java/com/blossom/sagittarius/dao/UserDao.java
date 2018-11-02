@@ -7,6 +7,8 @@ import com.blossom.sagittarius.domain.UserDO;
 @Mapper
 public interface UserDao {
 	
+	void createUser(UserDO userDO);
+	
     UserDO getByUsername(String username);
     
 }
